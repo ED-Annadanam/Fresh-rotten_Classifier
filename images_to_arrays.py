@@ -15,59 +15,14 @@ import os
 
 """importing necessary libraries"""
 
-#! pip install kaggle
-#! mkdir ~/.kaggle
-#! cp kaggle.json ~/.kaggle/
-#! chmod 600 ~/.kaggle/kaggle.json
 
 """connecting to kaggle courtesy-[this website](https://https://www.analyticsvidhya.com/blog/2021/06/how-to-load-kaggle-datasets-directly-into-google-colab/
 )
 """
 
-#!kaggle datasets download raghavrpotdar/fresh-and-stale-images-of-fruits-and-vegetables
+
 
 """dataset from [kaggle](https://www.kaggle.com/datasets/raghavrpotdar/fresh-and-stale-images-of-fruits-and-vegetables"""
-
-#! unzip fresh-and-stale-images-of-fruits-and-vegetables.zip
-
-#img_array = cv2.imread("/content/stale_banana/translation_Screen Shot 2018-06-12 at 9.03.51 PM.png")
-
-#img_array2 = cv2.imread("/content/stale_orange/rotated_by_75_Screen Shot 2018-06-12 at 11.22.41 PM.png")
-#plt.imshow(img_array)
-#plt.show()
-
-#resolution=(45,45)
-#img_array = cv2.resize(img_array,resolution)
-#plt.imshow(img_array)
-#plt.show()
-
-#img_array = cv2.imread("/content/stale_orange/rotated_by_75_Screen Shot 2018-06-12 at 11.22.41 PM.png")
-#plt.imshow(img_array)
-#plt.show()
-
-resolution=(45,45)
-#img_array = cv2.resize(img_array,resolution)
-#plt.imshow(img_array)
-#plt.show()
-
-#img_array = cv2.imread("/content/fresh_tomato/DSCN4068.jpg_0_1176.jpg")
-#plt.imshow(img_array)
-#plt.show()
-
-#resolution=(45,45)
-#img_array = cv2.resize(img_array,resolution)
-
-#plt.imshow(img_array)
-#plt.show()
-
-#img_array = cv2.imread("/content/fresh_banana/Screen Shot 2018-06-12 at 10.00.12 PM.png")
-#plt.imshow(img_array)
-#plt.show()
-
-#resolution=(45,45)
-#img_array = cv2.resize(img_array,resolution)
-#plt.imshow(img_array)
-#plt.show()
 
 #Tried different resolutions,settled at 45*45
 
